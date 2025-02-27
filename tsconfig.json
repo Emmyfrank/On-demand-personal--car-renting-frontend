@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".", // root of your "paths" below. Required if "paths" is defined
+    "paths": {
+      "@components/*": ["src/components/*"] // enables us to use @components/MyComponent
+    }
+  }
+}
